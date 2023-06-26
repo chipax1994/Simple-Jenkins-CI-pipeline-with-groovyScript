@@ -1,0 +1,17 @@
+version : "3"
+services :
+    image : 
+       image : jenkins/jenkins:2.401.1
+       ports :
+        - 8000:8000
+        - 50000:50000
+       volumes :
+           - jenkins_home:/var/jenkins_home
+
+
+volumes:
+  jenkins_home:
+
+
+  
+
