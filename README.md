@@ -4,4 +4,6 @@
 
 *- Additonal jenkings software requirments were downloaded...
 
+*- Go to jenkins "GLOBAL CONFIGURATION" and include your Github/Gitlab login details so that jenkins can read code branches / files directly from your code repositories 
+
 *- A simple CI pipeline that tests, builds  and deploys applications was written in a jenkinsfile and its functions supported ina script.groovy file
